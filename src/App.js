@@ -1,17 +1,18 @@
 
-import Account from './Account';
+
 import './App.css';
-import Hello from './components/Hello';
+
 import Product from './components/Product';
+import Todo from './components/Todo';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Hello/>
-      <Account name= 'Francis ' lastname="Okello"/>
       <Product/>
+      <Todo/>
    
 
     </div>
